@@ -1,5 +1,11 @@
 apply plugin: 'com.android.library'
 
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
 android {
     compileSdkVersion 24
     buildToolsVersion "23.0.3"
@@ -28,4 +34,6 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.1.1'
     testCompile 'junit:junit:4.12'
+    compile(name: 'curvechartlib-release', ext: 'aar')
+    compile(name: 'floatcontainerlib-release', ext: 'aar')
 }

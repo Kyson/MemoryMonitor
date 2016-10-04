@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mem_monitor_aa000000">#aa000000</color>
+    <color name="mem_monitor_00f0af">#00f0af</color>
+    <color name="mem_monitor_aa0000FF">#200000FF</color>
+</resources>
