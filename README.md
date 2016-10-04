@@ -1,16 +1,20 @@
 # MemoryMonitor
 
-内存监控组件
+内存监控组件，可以在应用debug版本设置开关，随时打开内存监控器，时时监控实际物理内存占用及堆内存的使用情况（堆内存的视图和AndroidStudio中的monitor是一样的）
 
 ## 预览
 
-![]()
+![mm_preview](https://github.com/Kyson/MemoryMonitor/blob/master/ART/mm_preview.gif)
 
 ## 使用
 
 ### step1
 
-引用aar包，最新版本链接：[]()
+引用3个aar包，链接：
+
+- [曲线图依赖库](https://github.com/Kyson/MemoryMonitor/blob/master/ART/curvechartlib-release.aar)
+- [悬浮视图依赖库](https://github.com/Kyson/MemoryMonitor/blob/master/ART/floatcontainerlib-release.aar)
+- [主包，内存监控器](https://github.com/Kyson/MemoryMonitor/blob/master/ART/memorymonitorlib-release.aar)
 
 ### step2
 
