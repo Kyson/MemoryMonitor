@@ -1,9 +1,4 @@
 apply plugin: 'com.android.application'
-repositories {
-    flatDir {
-        dirs project(':memorymonitorlib').file('libs')
-    }
-}
 
 android {
     compileSdkVersion 24
@@ -22,6 +17,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    repositories {
+        flatDir {
+            dirs 'libs',project(':memorymonitorlib').file('libs')
+        }
+    }
+
 }
 
 dependencies {

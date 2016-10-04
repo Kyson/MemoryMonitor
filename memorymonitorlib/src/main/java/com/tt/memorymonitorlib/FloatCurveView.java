@@ -78,8 +78,9 @@ public class FloatCurveView extends RelativeLayout {
                 .setDataSize(config.dataSize)
                 .setMaxValueMulti(1.2f)
                 .setMinValueMulti(0.8f)
-                .setXTextPadding(45)
-                .setYPartCount(config.yPartCount);
+                .setXTextPadding(70)
+                .setYPartCount(config.yPartCount)
+                .setYLabelSize(20f);
         mCurveChartView.setUp(builder.create());
         mCurveChartView.setPadding(config.padding, config.padding, config.padding, config.padding);
         mFloatContainer.attachToWindow(this, Gravity.LEFT | Gravity.TOP, config.x, config.y, config.width, config.height);
