@@ -78,7 +78,7 @@ public class FloatCurveView extends RelativeLayout {
                 .setDataSize(config.dataSize)
                 .setMaxValueMulti(1.2f)
                 .setMinValueMulti(0.8f)
-                .setXTextPadding(30)
+                .setXTextPadding(45)
                 .setYPartCount(config.yPartCount);
         mCurveChartView.setUp(builder.create());
         mCurveChartView.setPadding(config.padding, config.padding, config.padding, config.padding);

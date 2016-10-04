@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="mem_monitor_padding">5dp</dimen>
-    <dimen name="mem_monitor_text_padding">7dp</dimen>
-    <dimen name="mem_monitor_height">200dp</dimen>
+    <dimen name="mem_monitor_padding">8dp</dimen>
+    <dimen name="mem_monitor_text_padding">8dp</dimen>
+    <dimen name="mem_monitor_height">250dp</dimen>
 </resources>
